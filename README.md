@@ -19,6 +19,24 @@ This repository contains a custom Ableton Live control script for the KMI QuNeo 
 
 If the script does not appear, make sure the folder name matches exactly `QuNeo` and that the files inside are not nested one level deeper than expected.
 
+## Quick Start / Usage
+
+After the script is selected in Ableton:
+
+- Use the QuNeo pads for clip launching and session navigation.
+- Use the controller's buttons for transport control such as play, stop, and recording.
+- Use the mixer and bank controls to adjust track levels and navigation.
+- Check the `QuNeo` source files for the exact controller mapping and any custom behavior.
+
+This script is designed to work as a MIDI Remote Script for the QuNeo and is intended for use with Ableton Live 12 and newer.
+
+## Troubleshooting
+
+- If the controller is not detected, verify that the device is connected and recognized by your computer.
+- If the script does not appear in Live, confirm that the `QuNeo` directory is placed directly in the Remote Scripts folder and not inside another folder.
+- If Live reports an error, restart the application and reload the script after confirming the folder structure.
+- If the mapping feels wrong, check the MIDI port assignments in Live Preferences > Link MIDI.
+
 ## Notes
 
-This script is intended for Ableton Live 12 and later and is designed specifically for the KMI QuNeo controller.
+This project is built for the KMI QuNeo and is intended to extend Ableton Live with hardware control tailored to the controller's pad and button layout.
